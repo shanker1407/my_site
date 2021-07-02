@@ -1,0 +1,102 @@
+Q : what is the  difference  bw list and tuple
+        LIST                                                                                            Tuple
+1	Lists are mutable	                                                                       Tuples are immutable
+2	Implication of iterations is Time-consuming	                                               The implication of iterations is comparatively Faster
+3	The list is better for performing operations, such as insertion and deletion.	               Tuple data type is appropriate for accessing the elements
+4	Lists consume more memory	                                                               Tuple consume less memory as compared to the list
+5	Lists have several built-in methods	                                                       Tuple does not have many built-in methods.
+6	The unexpected changes and errors are more likely to occur                                     In tuple,it is hard to take place
+
+Q : difference bitween mutable and immutable
+ans: in mutable we can change the internal refference but in immutable we can not change the internal refference
+
+ Q : diff bw append and extend
+ans : append is used to add an object at the end of list 
+      but extend is used to extebnd the list by appending the elements in the iterable(which have internal refference) 
+  
+Q : diff bw array and list
+ans : List	                                                                  Array
+Can consist of elements belonging to different data types	            Only consists of elements belonging to the same data type
+No need to explicitly import a module for declaration	                     Need to explicitly import a module for declaration
+Cannot directly handle arithmetic operations	                             Can directly handle arithmetic operations
+Preferred for shorter sequence of data items	                             Preferred for longer sequence of data items
+Greater flexibility allows easy modification (addition, deletion) of data    Less flexibility since addition, deletion has to be done element wise
+The entire list can be printed without any explicit looping	             A loop has to be formed to print or access the components of array
+Consume larger memory for easy addition of elements                           Comparatively more compact in memory size
+
+
+Q :  diff bw dict and set.l.
+ans : set:
+ A set in python is a collection of items just like Lists and Tuples.
+
+A set is created using the set keyword
+A set cannot be an element of a set
+ 
+     Dictionary:
+A dictionary in python is a collections of key-value pairs of item. For each entry, there are two items: a key and a value. 
+
+keys in a dictionary must be unique
+keys are immutable
+keys and values can be of any data types
+the keys() function returns list of keys in a dictionary
+the values() function returns list of values in dictionary
+
+
+ Q : what are mutable and immutable datatype
+Ands :   mutable data types: list,dictionary, set
+         immutable data tyupes: tuple,string,frozen set
+
+
+Q : diff bw index and find
+Ans : index = it is used to return of first index of the value 
+              and it give  error if object not found 
+       find =  it is used to find first index of the value 
+                and it will give -1 if it is not found
+ 
+
+Q :    diff bw partition and split
+Ans :   Split :
+        1 : Split returns a list
+        2 :The size of list returned by a Split functions depends on the seperator and the max split size which is again optional
+        3 : Split can work without any arguments, which by default takes spaces and '\n' as default seperator
+        Partition : 
+        1 : Split returns a tuple
+        2 : The size of tuple returned by a partition is fixed and is always 3    
+        3 : For Partition an argument is compulsory, else returns an error
+
+
+
+ Q  :     why do we preffer dictionary rather than list
+ Ans :    we use dictionaries rather than list because dictionary talks about information but list can not talks about information
+
+
+Q :   which one is faster list or tuple
+Ans :  tuple is faste because 
+      1: Tuples are stored in a single block of memory. Tuples are immutable so, It doesn't require extra space to store new objects.
+      2 : Lists are allocated in two blocks: the fixed one with all the Python object information and a variable sized block for the data.
+
+Q :  which is faster dictionary or list
+Ans : dictionary is faster because 
+     1 : In Python, the average time complexity of a dictionary key lookup is O(1), since they are implemented as hash tables. The time complexity of lookup in a list is O(n) on average
+     2:  The reason is because a dictionary is a lookup, while a list is an iteration, Dictionary uses a hash lookup,
+          while your list requires walking through the list until it finds the result from beginning to the result
+  
+Q :  diff bw set and frozenset
+Ans : 1:to create set we use set(),and to create frozenset we use frozenset()
+       2: set is mutable and frozenset is immutable
+      3 : set and frozenset both objects are hashable but setobject is not hashable but frozenset is hashable
+
+
+Q  : what are various properties of dictionary
+Ans : More than one entry per key is not allowed ( no duplicate key is allowed)
+      The values in the dictionary can be of any type, while the keys must be immutable like numbers, tuples, or strings.
+      Dictionary keys are case sensitive- Same key name but with the different cases are treated as different keys in Python dictionaries.
+
+
+Q  : what is string,is it mutable or immutable
+Ans : A string in Python is a sequence of characters
+      string is order sequence and immutable datatype
+
+Q : what is time complexity and how to find it
+Ans : Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm
+
