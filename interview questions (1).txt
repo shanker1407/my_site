@@ -23,7 +23,7 @@ Cannot directly handle arithmetic operations	                             Can di
 Preferred for shorter sequence of data items	                             Preferred for longer sequence of data items
 Greater flexibility allows easy modification (addition, deletion) of data    Less flexibility since addition, deletion has to be done element wise
 The entire list can be printed without any explicit looping	             A loop has to be formed to print or access the components of array
-Consume larger memory for easy addition of elements                           Comparatively more compact in memory size
+Consume larger memory for easy addition of elements                          Comparatively more compact in memory size
 
 
 Q :  diff bw dict and set.l.
@@ -99,5 +99,5 @@ Ans : A string in Python is a sequence of characters
       string is order sequence and immutable datatype
 
 Q : what is time complexity and how to find it
-Ans : Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm
+Ans : Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm.
 
