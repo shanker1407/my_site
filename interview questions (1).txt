@@ -1,5 +1,6 @@
 Q : what is the  difference  bw list and tuple
-        LIST                                                                                            Tuple
+        LIST
+        Tuple
 1	Lists are mutable	                                                                       Tuples are immutable
 2	Implication of iterations is Time-consuming	                                               The implication of iterations is comparatively Faster
 3	The list is better for performing operations, such as insertion and deletion.	               Tuple data type is appropriate for accessing the elements
